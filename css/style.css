@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box; 
+  /* This makes the widths of elements more consistent
+  Full details here https://css-tricks.com/box-sizing/ */
+}
+
+.menu-area li a {
+  text-decoration: none;
+}
+
+.menu-area li {
+  list-style-type: none;
+}
+
+.custom-padding{
+
+  padding-top: 25px;
+}
+
+.logo {
+  width: 15%;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+
+.menu-area li {
+  display: inline-block;
+}
+
+.menu-area a {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+
+}
+.menu-area a:hover {
+  background: #f7cac9;
+  color: #fff;
+}
+
+.menu-area a:hover:after {
+  transform: translateY(-50%) rotate(-35deg);
+}
+
+nav {
+  position: fixed;
+
+  margin: 0 auto;
+  padding: 10px 0;
+  background: #034f84;
+  z-index: 1;
+  text-align: right;
+  padding-right: 2%;
+  top: 0;
+  width: 100%;
+}
+
+
+nav:before {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-right: 10px solid #333;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  left: 0;
+}
+
+nav:after {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-left: 10px solid #333;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  right: 0;
+}
+
+
+header{
+  background-color:  #107896 ;
+
+  color: white; /* more readable on an orange background */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align:center;
+  font-family: sans-serif;
+  
+}
+
+.shadow{
+  border-radius:0px 0px 30px 5px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+
+body{
+background-color: lightblue;
+  margin: 0px; /* Often browsers have a 5px margin by deafult*/
+  font-family: sans-serif;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+section{
+  min-width: 300px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  /*margin-bottom: 30px;*/
+
+}
+
+#home-img{
+  margin-left: 0;
+  width: 100%;
+    background-repeat:repeat;
+    background-size: cover;
+    background-image:url("../img/8.jpg") ;
+    text-align: center;
+    color: #ffffff;
+
+.gap{
+  margin: 50px;
+}
+
+}
+#home-image h1{
+  position:absolute;
+  margin-top: 100px;
+  color: #fff;
+  font-size:50px;
+  line-height: 1.6em;
+  padding-top: 100px;
+  font-family: sans-serif;
+
+}
+
+.txt{
+  padding-top: 60px;
+  padding-bottom: 200px;
+ line-height: 1.8;
+ text-align: left;
+ float: left;
+}
+
+
+
+/* Simple grid */
+.g-row{
+  width: 100%;
+  overflow: hidden;
+}
+
+.g-row img{
+  width: 100%; /*This makes all images in grids to be the size of their cell */
+  border-radius: 15px  50px;
+  box-shadow: 10px 10px 5px grey;
+  padding: 10px ;
+  height: auto;
+  
+
+}
+.imgs{
+  width: 50%;
+  float: left;
+  margin-left: 50%;
+
+}
+
+/*.padded-left{
+  padding-left: 100px;
+}
+.padded-right{
+  padding-right: 100px;
+}*/
+
+.show{
+  border: 1px solid blue;
+  padding: 2px;
+}
+
+.padded{
+  padding: 20px; /* I add this to cells to add a little padding*/
+}
+
+.home-text{
+  padding-top: 180px;
+    padding-bottom: 200px;
+  font-size: 55px
+}
+
+#main-footer{
+  background: #107896 ;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+
+}
