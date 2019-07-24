@@ -7,6 +7,45 @@
   Full details here https://css-tricks.com/box-sizing/ */
 }
 
+/*.box1{
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box2{
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box3{
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/3.jpg);
+  background-size: cover;
+  background-position: center;
+}*/
+
+.g-70 a:link {
+  text-decoration: none;
+}
+
+.g-70 a:visited {
+  text-decoration: none;
+}
+
+.g-70 a:hover {
+  text-decoration:none;
+}
+
+.g-70 a:active {
+  text-decoration: underline;
+}
 .menu-area li a {
   text-decoration: none;
 }
@@ -102,6 +141,7 @@ header{
   padding-bottom: 50px;
   text-align:center;
   font-family: sans-serif;
+  line-height: 1.6em;
   
 }
 
@@ -120,49 +160,86 @@ background-color: lightblue;
 
 p{
   font-family: sans-serif;
+
 }
 
 section{
-  min-width: 300px;
-  max-width: 1000px;
+ max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  /*margin-bottom: 20px;*/
   /*margin-bottom: 30px;*/
 
 }
 
-#home-img{
-  margin-left: 0;
+
+
+#home-img1{
+  object-fit: fill;
   width: 100%;
-    background-repeat:repeat;
+    background-repeat:no-repeat;
     background-size: cover;
-    background-image:url("../img/8.jpg") ;
+    background-image:url("../img/h2.jpg");
     text-align: center;
     color: #ffffff;
 
-.gap{
-  margin: 50px;
-}
+
 
 }
+#home-img2{
+  object-fit: fill;
+  width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image:url("../img/h1.jpg");
+    text-align: center;
+    color: #ffffff;
+
+
+
+}
+#home-img3{
+  object-fit: fill;
+  width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image:url("../img/h2.jpg");
+    text-align: center;
+    color: #ffffff;
+
+}
+
+#home-img4{
+  object-fit: fill;
+  width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image:url("../img/h4.jpg");
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+
 #home-image h1{
-  position:absolute;
+  position:relative;
+  padding-bottom:100px; 
   margin-top: 100px;
-  color: #fff;
-  font-size:50px;
+  color: hotpink;
+  font-size:40px;
   line-height: 1.6em;
-  padding-top: 100px;
+  
   font-family: sans-serif;
 
 }
 
 .txt{
-  padding-top: 60px;
+  padding-top: 100px;
   padding-bottom: 200px;
  line-height: 1.8;
- text-align: left;
- float: left;
+ 
 }
 
 
@@ -182,11 +259,25 @@ section{
   
 
 }
-.imgs{
+.g-50{
   width: 50%;
   float: left;
-  margin-left: 50%;
+  
 
+
+}
+
+.g-30{
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+
+.g-70{
+  width: 70%;
+  float: left;
+  padding-top: 20px;
+  color: white;
 }
 
 /*.padded-left{
@@ -206,9 +297,10 @@ section{
 }
 
 .home-text{
-  padding-top: 180px;
-    padding-bottom: 200px;
-  font-size: 55px
+  padding-top: 220px;
+    padding-bottom: 220px;
+  font-size: 25px
+  margin-top:30%;
 }
 
 #main-footer{
